@@ -1,6 +1,7 @@
 import {BrowserRouter, Link, Route, Routes} from "react-router-dom"
 import Homepage from "./pages/Homepage"
-import Portfoliopageone from "./pages/Portfoliopageone"
+import CameronFischer from "./pages/CameronFischer"
+import LukeMartin from "./pages/LukeMartin"
 
 
 function App() {
@@ -8,17 +9,21 @@ function App() {
     <BrowserRouter>
      <div className='HoldLinks'>
         <h1>Links</h1>
-        <Link to="/">homepage</Link>
+        <Link to="/">Home</Link>
       </div>
     <div>
-      <Link to="/portfoliopageone">portfoliopageone</Link>
+      <Link to="/CameronFischer">Cameron Fischer</Link>
+    </div>
+    <div>
+      <Link to="/LukeMartin">Luke Martin</Link>
     </div>
       <Routes>
         <Route path="/" element={<Homepage/>}/>
-        <Route path="/portfoliopageone" element={<Portfoliopageone/>}/>
+        <Route path="/CameronFischer" element={<CameronFischer/>}/>
+        <Route path="/LukeMartin" element={<LukeMartin/>}/>
       </Routes>
     </BrowserRouter>
   );
 }
-
+//npm install react-router-dom
 export default App;
