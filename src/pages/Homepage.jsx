@@ -1,5 +1,11 @@
+import Comments from '../components/UtteranceComments'
+
 function Homepage(){
-    return (<h1>Testing</h1>)
+    return (
+    <div className='Comments'>
+        <Comments/>
+    </div>
+    )
 }
 
 export default Homepage;
