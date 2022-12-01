@@ -1,5 +1,5 @@
-function Portfoliopageone(){
+function CameronFischer(){
     return <h1>Cameron Fischer</h1>
 }
 
-export default Portfoliopageone;
+export default CameronFischer;
