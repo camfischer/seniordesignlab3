@@ -1,7 +1,8 @@
+import Comments from '../components/UtteranceComments'
+
 function LukeMartin(){
-    return(<div style={{textAlign:"center", color: 'black', backgroundColor: 'gold'}}>
-            <p></p>
-            <p></p>
+    return (
+        <div style={{textAlign:"center", color: 'black', backgroundColor: 'gold'}}>
             <h1>Luke Martin</h1>
             <p></p>
             <h2>About Me</h2>
@@ -11,13 +12,17 @@ function LukeMartin(){
             <h3>to concerts, and eating large variety's of different foods. He is the    </h3>
             <h3>middle child of a family of five with an older sister and younger brother. </h3>
             <h3>Luke hopes to become a software developer after he graduates from Iowa. </h3>
-        
+
             <h2>Contact Me</h2>
-            <h3>phone: 712-281-4090</h3>
-            <h3>email: lmartin9@uiowa.edu</h3>
-            <h3>LinkedIn: </h3>
+            <h4>phone: 712-281-4090</h4>
+            <h4>email: lmartin9@uiowa.edu</h4>
+            <h4>LinkedIn: </h4> <a href="https://www.linkedin.com/in/luke-martin-aab746197/">Luke-Martin</a>
+
+
+            <div className='Comments'>
+                <Comments/>
             </div>
-    )
-}
+    </div>
+    );}
 
 export default LukeMartin;
