@@ -10,31 +10,19 @@ import TeamIntro from "./pages/TeamIntro"
 
 function App() {
   return (
-
-    <div style={{backgroundColor: 'grey'}}>
+    <div style={{backgroundColor: 'grey', height: '100vh'}}>
       <BrowserRouter>
         <div className='HoldLinks'>
-          <h3>Links <h1 style={{textAlign:"center", color: 'gold'}}>Team 8</h1>  </h3> 
-          <Link to="/">Home</Link>
+          <h1 style={{textAlign:"center", color: 'gold', margin:0}}>Team 8</h1>
         </div>
-    
-        <div>
-          <Link to="/TeamIntro">Team Introduction</Link>
-        </div>
-        <div>
-          <Link to="/CameronFischer">Cameron Fischer</Link>
-        </div>
-        <div>
-          <Link to="/LukeMartin">Luke Martin</Link>
-        </div>
-        <div>
-          <Link to="/AustinLetsch">Austin Letsch</Link>
-        </div>
-    
-        <div>
-          <Link to="/BeckyRicke">Becky Ricke</Link>
-        </div>
-
+          <div style={{display: 'flex', justifyContent: 'space-evenly' }}>
+          <Link to="/" style={{color: 'white', textDecoration: 'none', fontSize: 20, }}>Home</Link>
+          <Link to="/TeamIntro" style={{color: 'white', textDecoration: 'none', fontSize: 20}}>Team Introduction</Link>
+          <Link to="/CameronFischer" style={{color: 'white', textDecoration: 'none', fontSize: 20}}>Cameron Fischer</Link>
+          <Link to="/LukeMartin" style={{color: 'white', textDecoration: 'none', fontSize: 20}} >Luke Martin</Link>
+          <Link to="/AustinLetsch"style={{color: 'white', textDecoration: 'none', fontSize: 20}} >Austin Letsch</Link>
+          <Link to="/BeckyRicke"style={{color: 'white', textDecoration: 'none', fontSize: 20}}>Becky Ricke</Link>
+          </div>
         <Routes>
           <Route path="/" element={<Homepage/>}/>
           <Route path="/TeamIntro" element={<TeamIntro/>}/>
