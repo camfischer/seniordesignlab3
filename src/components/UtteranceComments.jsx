@@ -10,6 +10,7 @@ export default class Comments extends Component {
         let scriptEl = document.createElement("script");
         scriptEl.setAttribute("src", "https://utteranc.es/client.js")
         scriptEl.setAttribute("crossorigin", "anonymous")
+        scriptEl.setAttribute("repo", "camfischer/seniordesignlab3")
         scriptEl.setAttribute("async", true)
         scriptEl.setAttribute("issue-term", "title")
         scriptEl.setAttribute("theme", "github-light")
