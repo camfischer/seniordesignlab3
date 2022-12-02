@@ -1,11 +1,11 @@
 import Comments from '../components/UtteranceComments'
-import Rebecca from './Rebecca.png';
+//import Rebecca from './Rebecca.png';
 
 
 function BeckyRicke(){
     return(
         <div style={{textAlign:"center", color: 'black', backgroundColor: 'gold'}}>
-            <img style={{width: 235, height:220, border: '10px solid gold'}} src={Rebecca} alt="Rebecca" />
+            {<img style={{width: 235, height:220, border: '10px solid gold'}} src={Rebecca} alt="Rebecca" /> }
                 
             <h1>Becky Ricke</h1>
             <p></p>
