@@ -1,4 +1,4 @@
-import {BrowserRouter, Link, Route, Routes} from "react-router-dom"
+import {HashRouter, Link, Route, Routes} from "react-router-dom"
 import Homepage from "./pages/Homepage"
 import CameronFischer from "./pages/CameronFischer"
 import LukeMartin from "./pages/LukeMartin"
@@ -11,7 +11,7 @@ import TeamIntro from "./pages/TeamIntro"
 function App() {
   return (
     <div style={{backgroundColor: 'grey', height: '100vh'}}>
-      <BrowserRouter>
+      <HashRouter>
         <div className='HoldLinks'>
           <h1 style={{textAlign:"center", color: 'gold', margin:0}}>Team 8</h1>
         </div>
@@ -33,7 +33,7 @@ function App() {
           <Route path="/BeckyRicke" element={<BeckyRicke/>}/>
 
         </Routes>
-      </BrowserRouter>
+      </HashRouter>
     </div>
     
     
