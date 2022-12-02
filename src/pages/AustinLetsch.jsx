@@ -10,7 +10,7 @@ function AustinLetsch(){
         <h1>Austin Letsch</h1>
         <p></p>
         <h2>About Me</h2>
-        <h3>    Austin currently attends the University of Iowa and is in his 4th year </h3>
+        <h3>    I am currently attends the University of Iowa in my 4th year and final year </h3>
         <h3>as a Computer Science and Engineering major with a machine learning efa.</h3>
         <h3>I was born in Brooklyn Center (a subarb of Minneapolis) Minnesota.  I moved</h3>
         <h3>to West Des Moines when I was 10 and have stayed in Iowa since.  Outside of </h3>
