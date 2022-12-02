@@ -5,7 +5,7 @@ import Rebecca from './Rebecca.png';
 function BeckyRicke(){
     return(
         <div style={{textAlign:"center", color: 'black', backgroundColor: 'gold'}}>
-            {<img style={{width: 190, height: 250}} src={Rebecca} alt="Rebecca" /> }
+            <img style={{width: 190, height: 250}} src={Rebecca} alt="Rebecca" />
                 
             <h1>Becky Ricke</h1>
             <p></p>
