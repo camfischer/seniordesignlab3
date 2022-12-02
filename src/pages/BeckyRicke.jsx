@@ -1,5 +1,5 @@
 import Comments from '../components/UtteranceComments'
-//import Rebecca from './Rebecca.png';
+import Rebecca from './Rebecca.png';
 
 
 function BeckyRicke(){
