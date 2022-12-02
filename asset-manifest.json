@@ -1,13 +1,14 @@
 {
   "files": {
-    "main.css": "/seniordesignlab3/static/css/main.e6c13ad2.css",
-    "main.js": "/seniordesignlab3/static/js/main.db05d06e.js",
+    "main.css": "/seniordesignlab3/static/css/main.50810a42.css",
+    "main.js": "/seniordesignlab3/static/js/main.9d576606.js",
+    "static/media/Luke.png": "/seniordesignlab3/static/media/Luke.d03155e91ac08ebf5907.png",
     "index.html": "/seniordesignlab3/index.html",
-    "main.e6c13ad2.css.map": "/seniordesignlab3/static/css/main.e6c13ad2.css.map",
-    "main.db05d06e.js.map": "/seniordesignlab3/static/js/main.db05d06e.js.map"
+    "main.50810a42.css.map": "/seniordesignlab3/static/css/main.50810a42.css.map",
+    "main.9d576606.js.map": "/seniordesignlab3/static/js/main.9d576606.js.map"
   },
   "entrypoints": [
-    "static/css/main.e6c13ad2.css",
-    "static/js/main.db05d06e.js"
+    "static/css/main.50810a42.css",
+    "static/js/main.9d576606.js"
   ]
 }
