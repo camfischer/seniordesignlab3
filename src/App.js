@@ -14,9 +14,10 @@ function App() {
     <div style={{backgroundColor: 'grey'}}>
     <BrowserRouter>
     <div className='HoldLinks'>
-        <h1>Links</h1>
+        <h3>Links</h3> <h1 style={{textAlign:"center", color: 'black'}}>Team 8</h1> 
         <Link to="/">Home</Link>
     </div>
+    
     <div>
       <Link to="/TeamIntro">Team Introduction</Link>
     </div>

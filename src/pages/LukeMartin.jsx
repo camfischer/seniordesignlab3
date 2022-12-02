@@ -1,8 +1,12 @@
 import Comments from '../components/UtteranceComments'
+import Luke from './Luke.png';
+
 
 function LukeMartin(){
     return (
         <div style={{textAlign:"center", color: 'black', backgroundColor: 'gold'}}>
+            <img style={{width: 235, height: 220, border: '10px solid gold'}} src={Luke} alt="Luke" />
+            
             <h1>Luke Martin</h1>
             <p></p>
             <h2>About Me</h2>
@@ -16,8 +20,8 @@ function LukeMartin(){
             <h2>Contact Me</h2>
             <h4>phone: 712-281-4090</h4>
             <h4>email: lmartin9@uiowa.edu</h4>
-            <h4>LinkedIn: </h4> <a href="https://www.linkedin.com/in/luke-martin-aab746197/">Luke-Martin</a>
-
+            <h4>LinkedIn: <a href="https://www.linkedin.com/in/luke-martin-aab746197/">Luke-Martin</a> </h4>
+            <h4>Github: <a href="https://github.com/lukemartin3">lukemartin3</a> </h4>
 
             <div className='Comments'>
                 <Comments/>
