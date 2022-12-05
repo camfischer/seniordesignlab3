@@ -1,3 +1,5 @@
+Live Site here: https://camfischer.github.io/seniordesignlab3/
+
 
 ### SENIOR DESIGN NOTES
 Make sure you install Github Desktop if this bash/powershell do not work.
